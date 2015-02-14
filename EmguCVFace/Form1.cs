@@ -35,6 +35,7 @@ namespace EmguCVFace
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             txtSmiling.Text = "UNHAPPY :(";
+            pictureBox2.Image = Image.FromFile(@"C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\Moods\unhappy.jpg");
             //We are acquiring a new frame
             Image<Bgr, Byte> nextFrame = cap.QueryFrame();
             //We convert it to grayscale
@@ -115,6 +116,8 @@ namespace EmguCVFace
                 nextFrame.Draw(smile1, new Bgr(Color.Yellow), 2);
                 if (smiles != null)
                     txtSmiling.Text = "HAPPY :)";
+                    pictureBox2.Image = Image.FromFile(@"C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\Moods\happy.jpg");
+
             }
 
             //Show image
