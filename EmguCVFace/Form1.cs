@@ -34,7 +34,7 @@ namespace EmguCVFace
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            txtSmiling.Text = "UNHAPPY :(";
+            txtSmiling.Text = "Unhappy";
             pictureBox2.Image = Image.FromFile(@"C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\Moods\unhappy.jpg");
             //We are acquiring a new frame
             Image<Bgr, Byte> nextFrame = cap.QueryFrame();
@@ -108,14 +108,14 @@ namespace EmguCVFace
 
             //Draw detected area
             foreach (Rectangle face1 in faces)
-                nextFrame.Draw(face1, new Bgr(Color.Red), 4);
+                nextFrame.Draw(face1, new Bgr(Color.Red), 2);
             foreach (Rectangle eye1 in eyes)
-                nextFrame.Draw(eye1, new Bgr(Color.Blue), 1);
+                nextFrame.Draw(eye1, new Bgr(Color.Blue), 2);
             foreach (Rectangle smile1 in smiles)
             {
                 nextFrame.Draw(smile1, new Bgr(Color.Yellow), 2);
                 if (smiles != null)
-                    txtSmiling.Text = "HAPPY :)";
+                    txtSmiling.Text = "Happy";
                     pictureBox2.Image = Image.FromFile(@"C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\Moods\happy.jpg");
 
             }
