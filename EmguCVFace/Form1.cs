@@ -65,7 +65,7 @@ namespace EmguCVFace
             1.1, //scaleFactor
             10, //minNeighbors
             new Size(20, 20), //Minimum Boyut
-            Size.Empty); //mMaximum Boyut
+            Size.Empty); //Maximum Boyut
             faces.AddRange(facesDetected);
 
             //Eyes detection
@@ -93,8 +93,8 @@ namespace EmguCVFace
                 gray.ROI = f;
                 Rectangle[] smiledetected = smile.DetectMultiScale(
                 gray,
-                1.1,
-                150,
+                1.1, //minSize
+                200, //maxSize
                 Size.Empty,
                 Size.Empty);
                 gray.ROI = Rectangle.Empty;
@@ -124,6 +124,34 @@ namespace EmguCVFace
             pictureBox1.Image = nextFrame.ToBitmap();
 
         }
-    }
-}
 
+        private void btnSuggest_Click(object sender, EventArgs e)
+        {
+            if (txtSmiling.Text=="Happy")
+            {
+                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=e-ORhEE9VVg&list=PLDcnymzs18LVXfO_x0Ei0R24qDbVtyy66&index=1");
+            }
+            else if (txtSmiling.Text == "Unhappy")
+
+            {
+                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=8kcvfwkPJ5Q&list=PLRYrvC4-qoFzzLq5Evl3Fq7DNvHCUv-jM");
+            }
+        }
+
+        private void btnList_Click(object sender, EventArgs e)
+        {
+            if (txtSmiling.Text == "Happy")
+            {
+                System.Diagnostics.Process.Start("https://www.youtube.com/playlist?list=PLDcnymzs18LVXfO_x0Ei0R24qDbVtyy66");
+            }
+            else if (txtSmiling.Text == "Unhappy")
+            {
+                System.Diagnostics.Process.Start("https://www.youtube.com/playlist?list=PLRYrvC4-qoFzzLq5Evl3Fq7DNvHCUv-jM");
+            }
+        }
+
+        
+            
+
+        }
+    }

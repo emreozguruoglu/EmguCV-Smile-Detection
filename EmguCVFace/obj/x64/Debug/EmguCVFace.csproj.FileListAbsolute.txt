@@ -20,3 +20,9 @@ C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\bin\x64\Debug\Emgu.Ut
 C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\obj\x64\Debug\EmguCVFace.csprojResolveAssemblyReference.cache
 C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\obj\x64\Debug\EmguCVFace.exe
 C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\obj\x64\Debug\EmguCVFace.pdb
+C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\bin\x64\Debug\EmguCVFace.exe.manifest
+C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\bin\x64\Debug\EmguCVFace.application
+C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\obj\x64\Debug\EmguCVFace.exe.manifest
+C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\obj\x64\Debug\EmguCVFace.application
+C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\bin\x64\Debug\EntityFramework.dll
+C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\bin\x64\Debug\EntityFramework.xml

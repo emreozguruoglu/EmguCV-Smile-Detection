@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MusicDBModelStoreContainer" CdmEntityContainer="MusicDBEntities">
+    <EntitySetMapping Name="HappyMusics">
+      <EntityTypeMapping TypeName="MusicDBModel.HappyMusic">
+        <MappingFragment StoreEntitySet="HappyMusic">
+          <ScalarProperty Name="MusicId" ColumnName="MusicId" />
+          <ScalarProperty Name="ArtistName" ColumnName="ArtistName" />
+          <ScalarProperty Name="SongName" ColumnName="SongName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnhappyMusics">
+      <EntityTypeMapping TypeName="MusicDBModel.UnhappyMusic">
+        <MappingFragment StoreEntitySet="UnhappyMusic">
+          <ScalarProperty Name="MusicId" ColumnName="MusicId" />
+          <ScalarProperty Name="ArtistName" ColumnName="ArtistName" />
+          <ScalarProperty Name="SongName" ColumnName="SongName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
