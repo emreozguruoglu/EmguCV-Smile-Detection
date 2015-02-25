@@ -1,1 +1,22 @@
 C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\EmguCVFace\bin\Debug\EmguCVFace.exe.config
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\EmguCVFace.exe.config
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\EmguCVFace.exe
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\EmguCVFace.pdb
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.GPU.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.ML.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.UI.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.VideoStab.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.Util.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\ZedGraph.dll
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.xml
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.GPU.xml
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.ML.xml
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.CV.VideoStab.xml
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\bin\Debug\Emgu.Util.xml
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\obj\Debug\EmguCVFace.Form1.resources
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\obj\Debug\EmguCVFace.Properties.Resources.resources
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\obj\Debug\EmguCVFace.csproj.GenerateResource.Cache
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\obj\Debug\EmguCVFace.exe
+C:\Users\Emre\Documents\GitHub\EmguCV-Smile-Detection\EmguCVFace\obj\Debug\EmguCVFace.pdb
