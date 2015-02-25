@@ -114,14 +114,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EmguCVFace.exe" size="12800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EmguCVFace.exe" size="13312">
       <assemblyIdentity name="EmguCVFace" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rhdUmvHLktvIDC9OGnvbi/rK8P/Ffu5BS+OOQ+ZEXg0=</dsig:DigestValue>
+        <dsig:DigestValue>zNbwCgIogS92TrdnuYvEkOA8JAsTrrF/SP5M3rywWrI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -156,6 +156,132 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>jNRUvINBdgUThoAepY1ZMU4a+oe+fhKP5hG6xD8w4KA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\FastMotion\Jennifer Lopez feat Pitbull - Dance Again.wav" size="41871264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fcxbitfN5aCF3w0QzlpwnXBCheS893D31z676zBSe3c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\FastMotion\Mandinga - Zaleilah.wav" size="38848328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ja7HOSlOBQv+jYwuXt44qODFHFlz3EiceARoV+2qMZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\FastMotion\Roller Sis - Se Thelo.wav" size="43516440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qQDQxdI+i7zaThImlAq/uR+YcTmJuoz78W6mbdBpLvA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\FastMotion\Ryan Tedder - Not To Love You (Prod. by Stargate) [www.RnB4U.in].wav" size="35470990">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BIEY5+XLMYfNFR16FNOLS3XJWGaVTgCf5hv59AVdqJA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\FastMotion\Sean Paul - She Dosen't Mind.wav" size="43220034">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uiDLOMGRz1YkWLpcB231cXz1nV4lNZXB9HlljiCNUYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\FastMotion\Sin Plomo - It's You.wav" size="43203174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kt/DRyIKBX07/Q/7ZUBWdoC2uroopLENVQtXRndxdzk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Allı Turnam.wav" size="28074748">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n+q6U9O+3fb+N8uyPkCdqbdcAt9HgpVNPmw+F62xQFM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Bebeğin Beşiği Camdan.wav" size="55732010">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uRoUbGB9pTgmE0w2LVvr0SQOuG9Kncc+s7PmTMs4uQg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Cemalim.wav" size="45211992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PoUXZihwR6sZ4NXKGd404+dYVbWLQoZJKtou6ffC+rA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Çarşambayı Sel Aldı.wav" size="48174982">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vK5XQ74h6xhFg7sGm1hc+O4O74kO0sR9+tji5FAXLtU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Duydum Ki Unutmuşsun.wav" size="37134260">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M+ijQr9zpopUqOPDidWCoNSzZig+jsTTtNkj3uOgEdI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Elif Dedim.wav" size="45258194">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/w6aB+7as8O0pTd0HBeTAysDLGAjol6f+E+lDNbmnFg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Kıraç - Annem.wav" size="26692562">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BKJtkPzuJimuS52VENq8DauicNyMpv7F+34iqIaYrow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Musics\SlowMotion\Kıraç - Ayrılık.wav" size="36751826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0XYRiN7vtQxSwXd4JUN1eNdaDuMOAbduEB+5VudsBmo=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

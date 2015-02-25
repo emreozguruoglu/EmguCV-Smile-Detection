@@ -174,6 +174,23 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Musics\FastMotion\Jennifer Lopez feat Pitbull - Dance Again.wav" />
+    <Content Include="Musics\FastMotion\Mandinga - Zaleilah.wav" />
+    <Content Include="Musics\FastMotion\Roller Sis - Se Thelo.wav" />
+    <Content Include="Musics\FastMotion\Ryan Tedder - Not To Love You %28Prod. by Stargate%29 [www.RnB4U.in].wav" />
+    <Content Include="Musics\FastMotion\Sean Paul - She Dosen%27t Mind.wav" />
+    <Content Include="Musics\FastMotion\Sin Plomo - It%27s You.wav" />
+    <Content Include="Musics\SlowMotion\Allı Turnam.wav" />
+    <Content Include="Musics\SlowMotion\Bebeğin Beşiği Camdan.wav" />
+    <Content Include="Musics\SlowMotion\Cemalim.wav" />
+    <Content Include="Musics\SlowMotion\Duydum Ki Unutmuşsun.wav" />
+    <Content Include="Musics\SlowMotion\Elif Dedim.wav" />
+    <Content Include="Musics\SlowMotion\Kıraç - Annem.wav" />
+    <Content Include="Musics\SlowMotion\Kıraç - Ayrılık.wav" />
+    <Content Include="Musics\SlowMotion\Çarşambayı Sel Aldı.wav" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -36,6 +36,7 @@
             this.lblMood = new System.Windows.Forms.Label();
             this.btnSuggest = new System.Windows.Forms.Button();
             this.btnList = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +45,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(27, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(604, 354);
+            this.pictureBox1.Size = new System.Drawing.Size(604, 461);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -80,7 +81,7 @@
             // 
             // btnSuggest
             // 
-            this.btnSuggest.Location = new System.Drawing.Point(638, 191);
+            this.btnSuggest.Location = new System.Drawing.Point(637, 187);
             this.btnSuggest.Name = "btnSuggest";
             this.btnSuggest.Size = new System.Drawing.Size(136, 23);
             this.btnSuggest.TabIndex = 4;
@@ -90,7 +91,7 @@
             // 
             // btnList
             // 
-            this.btnList.Location = new System.Drawing.Point(640, 221);
+            this.btnList.Location = new System.Drawing.Point(637, 216);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(134, 23);
             this.btnList.TabIndex = 5;
@@ -98,12 +99,21 @@
             this.btnList.UseVisualStyleBackColor = true;
             this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(637, 245);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(425, 238);
+            this.listBox1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
-            this.ClientSize = new System.Drawing.Size(790, 443);
+            this.ClientSize = new System.Drawing.Size(1143, 566);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnList);
             this.Controls.Add(this.btnSuggest);
             this.Controls.Add(this.lblMood);
@@ -134,6 +144,7 @@
         private System.Windows.Forms.Label lblMood;
         private System.Windows.Forms.Button btnSuggest;
         private System.Windows.Forms.Button btnList;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

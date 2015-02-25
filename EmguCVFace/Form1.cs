@@ -11,6 +11,7 @@ using Emgu.CV;
 using Emgu.Util;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
+using System.IO;
 
 namespace EmguCVFace
 {
@@ -129,12 +130,21 @@ namespace EmguCVFace
         {
             if (txtSmiling.Text=="Happy")
             {
-                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=e-ORhEE9VVg&list=PLDcnymzs18LVXfO_x0Ei0R24qDbVtyy66&index=1");
+                var soundsRoot = @"C:\Users\Emre\Desktop\FastMotion";
+                var rand = new Random();
+                var soundFiles = Directory.GetFiles(soundsRoot, "*.wav");
+                var playSound = soundFiles[rand.Next(0, soundFiles.Length)];
+                System.Media.SoundPlayer player1 = new System.Media.SoundPlayer(playSound);
+                player1.Play();
             }
             else if (txtSmiling.Text == "Unhappy")
-
             {
-                System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=8kcvfwkPJ5Q&list=PLRYrvC4-qoFzzLq5Evl3Fq7DNvHCUv-jM");
+                var soundsRoot = @"C:\Users\Emre\Desktop\SlowMotion";
+                var rand = new Random();
+                var soundFiles = Directory.GetFiles(soundsRoot, "*.wav");
+                var playSound = soundFiles[rand.Next(0, soundFiles.Length)];
+                System.Media.SoundPlayer player1 = new System.Media.SoundPlayer(playSound);
+                player1.Play();
             }
         }
 
@@ -142,11 +152,26 @@ namespace EmguCVFace
         {
             if (txtSmiling.Text == "Happy")
             {
-                System.Diagnostics.Process.Start("https://www.youtube.com/playlist?list=PLDcnymzs18LVXfO_x0Ei0R24qDbVtyy66");
+                listBox1.Items.Clear();
+                string[] array1 = Directory.GetFiles(@"C:\Users\Emre\Desktop\FastMotion");
+                listBox1.Items.Add("--------------------------------------------------------------------- Files: --------------------------------------------------------------------");
+                listBox1.Items.Add("");
+                foreach (string name in array1)
+                {
+                    listBox1.Items.Add(name);
+                }   
             }
             else if (txtSmiling.Text == "Unhappy")
             {
-                System.Diagnostics.Process.Start("https://www.youtube.com/playlist?list=PLRYrvC4-qoFzzLq5Evl3Fq7DNvHCUv-jM");
+               listBox1.Items.Clear();
+               string[] array1 = Directory.GetFiles(@"C:\Users\Emre\Desktop\SlowMotion");
+               listBox1.Items.Add("-------------------------------------------------------------------- Files: --------------------------------------------------------------------");
+               listBox1.Items.Add("");
+                listBox1.Items.Add(System.IO.Directory.GetCurrentDirectory());
+                foreach (string name in array1)
+                {
+                    listBox1.Items.Add(name);
+                }
             }
         }
 
