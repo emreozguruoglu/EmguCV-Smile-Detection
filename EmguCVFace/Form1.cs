@@ -35,21 +35,24 @@ namespace EmguCVFace
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            txtSmiling.Text = "Unhappy";
+            txtSmiling.Text = "Unhappy"; //Bu adımda gülmediğimiz zaman üzgün olduğumuzu anlatabilmek için en başa yazdık.
+
             pictureBox2.Image = Image.FromFile(@"C:\Users\Emre\Desktop\EmguCV Bitirme\EmguCVFace\Moods\unhappy.jpg");
-            //We are acquiring a new frame
+            //Yeni bir çerçeve oluşturduk.
             Image<Bgr, Byte> nextFrame = cap.QueryFrame();
-            //We convert it to grayscale
+            //Grayscale olarak çerçeveyi değiştiriyoruz.
             Image<Gray, Byte> grayFrame = nextFrame.Convert<Gray, Byte>();
             //Equalization step
             grayFrame._EqualizeHist();
             
-            //<!----------------------------------------------------------!>
+            //<!------------------Tanımlacanak kısımları bir listeye atacağımız için listeleri oluşturduk---------------------------!>
             List<Rectangle> faces = new List<Rectangle>();
             List<Rectangle> eyes = new List<Rectangle>();
             List<Rectangle> smiles = new List<Rectangle>();
 
+
             //Pre-trained cascade
+            //XML dosyalarından tanımlanacak kısımların değerleri alınmaktadır.
             CascadeClassifier face = new CascadeClassifier(@"C:\Users\Emre\Desktop\EmguCV Bitirme\FaceDetectedLive\FaceDetectedLive\XML'S\haarcascade_frontalface_default.xml");
             CascadeClassifier eye = new CascadeClassifier(@"C:\Users\Emre\Desktop\EmguCV Bitirme\FaceDetectedLive\FaceDetectedLive\XML'S\haarcascade_eye.xml");
             CascadeClassifier smile = new CascadeClassifier(@"C:\Users\Emre\Desktop\EmguCV Bitirme\FaceDetectedLive\FaceDetectedLive\XML'S\haarcascade_smile.xml");
@@ -57,7 +60,7 @@ namespace EmguCVFace
           //<!----------------------------------------------------------!>
 
 
-            //The input image of Cascadeclassifier must be grayscale
+            //Verilen Cascadeclassifier tpipindeki imaj grayscale olmak zorunda
             Image<Gray, Byte> gray = nextFrame.Convert<Gray, Byte>(); //Image Gray versiyonda olmak zorunda
 
             //Yüz tanımlama
@@ -128,7 +131,7 @@ namespace EmguCVFace
 
         private void btnSuggest_Click(object sender, EventArgs e)
         {
-            if (txtSmiling.Text=="Happy")
+            if (txtSmiling.Text == "Happy")
             {
                 var soundsRoot = @"C:\Users\Emre\Desktop\FastMotion";
                 var rand = new Random();
@@ -148,35 +151,38 @@ namespace EmguCVFace
             }
         }
 
+        private void listBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+            var currentsound = @listBox1.SelectedItem.ToString();
+            if (currentsound != null)
+            {
+                System.Media.SoundPlayer player1 = new System.Media.SoundPlayer(currentsound);
+                player1.Play();
+            }
+        }
+
         private void btnList_Click(object sender, EventArgs e)
         {
             if (txtSmiling.Text == "Happy")
             {
+                lblMusic.Text = "Happy Musics";
                 listBox1.Items.Clear();
                 string[] array1 = Directory.GetFiles(@"C:\Users\Emre\Desktop\FastMotion");
-                listBox1.Items.Add("--------------------------------------------------------------------- Files: --------------------------------------------------------------------");
-                listBox1.Items.Add("");
                 foreach (string name in array1)
                 {
                     listBox1.Items.Add(name);
-                }   
+                }
             }
             else if (txtSmiling.Text == "Unhappy")
             {
-               listBox1.Items.Clear();
-               string[] array1 = Directory.GetFiles(@"C:\Users\Emre\Desktop\SlowMotion");
-               listBox1.Items.Add("-------------------------------------------------------------------- Files: --------------------------------------------------------------------");
-               listBox1.Items.Add("");
-                listBox1.Items.Add(System.IO.Directory.GetCurrentDirectory());
+                lblMusic.Text = "Happy Musics";
+                listBox1.Items.Clear();
+                string[] array1 = Directory.GetFiles(@"C:\Users\Emre\Desktop\SlowMotion");
                 foreach (string name in array1)
                 {
                     listBox1.Items.Add(name);
                 }
             }
         }
-
-        
-            
-
         }
     }

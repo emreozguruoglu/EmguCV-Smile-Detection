@@ -29,104 +29,144 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.txtSmiling = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lblMood = new System.Windows.Forms.Label();
-            this.btnSuggest = new System.Windows.Forms.Button();
-            this.btnList = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblMusic = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnList = new System.Windows.Forms.Button();
+            this.btnSuggest = new System.Windows.Forms.Button();
+            this.lblMood = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.txtSmiling = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(27, 22);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(604, 461);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
-            // txtSmiling
+            // panel1
             // 
-            this.txtSmiling.Location = new System.Drawing.Point(705, 161);
-            this.txtSmiling.Name = "txtSmiling";
-            this.txtSmiling.Size = new System.Drawing.Size(69, 20);
-            this.txtSmiling.TabIndex = 1;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.lblMusic);
+            this.panel1.Controls.Add(this.listBox1);
+            this.panel1.Controls.Add(this.btnList);
+            this.panel1.Controls.Add(this.btnSuggest);
+            this.panel1.Controls.Add(this.lblMood);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.txtSmiling);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.ForeColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(13, 13);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1118, 541);
+            this.panel1.TabIndex = 0;
             // 
-            // pictureBox2
+            // lblMusic
             // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(640, 22);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 127);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.lblMusic.AutoSize = true;
+            this.lblMusic.ForeColor = System.Drawing.Color.White;
+            this.lblMusic.Location = new System.Drawing.Point(836, 262);
+            this.lblMusic.Name = "lblMusic";
+            this.lblMusic.Size = new System.Drawing.Size(0, 15);
+            this.lblMusic.TabIndex = 15;
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.Color.Black;
+            this.listBox1.ForeColor = System.Drawing.Color.White;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(652, 278);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(425, 214);
+            this.listBox1.TabIndex = 14;
+            this.listBox1.SelectedValueChanged += new System.EventHandler(this.listBox1_SelectedValueChanged);
+            // 
+            // btnList
+            // 
+            this.btnList.BackColor = System.Drawing.Color.Black;
+            this.btnList.ForeColor = System.Drawing.Color.White;
+            this.btnList.Location = new System.Drawing.Point(652, 219);
+            this.btnList.Name = "btnList";
+            this.btnList.Size = new System.Drawing.Size(155, 23);
+            this.btnList.TabIndex = 13;
+            this.btnList.Text = "Music Lists";
+            this.btnList.UseVisualStyleBackColor = false;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
+            // 
+            // btnSuggest
+            // 
+            this.btnSuggest.BackColor = System.Drawing.Color.Black;
+            this.btnSuggest.ForeColor = System.Drawing.Color.White;
+            this.btnSuggest.Location = new System.Drawing.Point(652, 190);
+            this.btnSuggest.Name = "btnSuggest";
+            this.btnSuggest.Size = new System.Drawing.Size(155, 23);
+            this.btnSuggest.TabIndex = 12;
+            this.btnSuggest.Text = "Suggest Me Music";
+            this.btnSuggest.UseVisualStyleBackColor = false;
+            this.btnSuggest.Click += new System.EventHandler(this.btnSuggest_Click);
             // 
             // lblMood
             // 
             this.lblMood.AutoSize = true;
-            this.lblMood.Location = new System.Drawing.Point(637, 164);
+            this.lblMood.ForeColor = System.Drawing.Color.White;
+            this.lblMood.Location = new System.Drawing.Point(652, 167);
             this.lblMood.Name = "lblMood";
-            this.lblMood.Size = new System.Drawing.Size(65, 13);
-            this.lblMood.TabIndex = 3;
+            this.lblMood.Size = new System.Drawing.Size(71, 15);
+            this.lblMood.TabIndex = 11;
             this.lblMood.Text = "Your Mood :";
             // 
-            // btnSuggest
+            // pictureBox2
             // 
-            this.btnSuggest.Location = new System.Drawing.Point(637, 187);
-            this.btnSuggest.Name = "btnSuggest";
-            this.btnSuggest.Size = new System.Drawing.Size(136, 23);
-            this.btnSuggest.TabIndex = 4;
-            this.btnSuggest.Text = "Suggest Me Music";
-            this.btnSuggest.UseVisualStyleBackColor = true;
-            this.btnSuggest.Click += new System.EventHandler(this.btnSuggest_Click);
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox2.Location = new System.Drawing.Point(655, 25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(152, 127);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
             // 
-            // btnList
+            // txtSmiling
             // 
-            this.btnList.Location = new System.Drawing.Point(637, 216);
-            this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(134, 23);
-            this.btnList.TabIndex = 5;
-            this.btnList.Text = "Music Lists";
-            this.btnList.UseVisualStyleBackColor = true;
-            this.btnList.Click += new System.EventHandler(this.btnList_Click);
+            this.txtSmiling.BackColor = System.Drawing.Color.Black;
+            this.txtSmiling.ForeColor = System.Drawing.Color.White;
+            this.txtSmiling.Location = new System.Drawing.Point(738, 164);
+            this.txtSmiling.Name = "txtSmiling";
+            this.txtSmiling.Size = new System.Drawing.Size(69, 21);
+            this.txtSmiling.TabIndex = 9;
             // 
-            // listBox1
+            // pictureBox1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(637, 245);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(425, 238);
-            this.listBox1.TabIndex = 6;
+            this.pictureBox1.Location = new System.Drawing.Point(42, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(592, 467);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Aquamarine;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::EmguCVFace.Properties.Resources.backgorund5__1159_605_;
             this.ClientSize = new System.Drawing.Size(1143, 566);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.btnList);
-            this.Controls.Add(this.btnSuggest);
-            this.Controls.Add(this.lblMood);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.txtSmiling);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Smile Detector";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -137,14 +177,16 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox txtSmiling;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label lblMood;
-        private System.Windows.Forms.Button btnSuggest;
-        private System.Windows.Forms.Button btnList;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblMusic;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnList;
+        private System.Windows.Forms.Button btnSuggest;
+        private System.Windows.Forms.Label lblMood;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox txtSmiling;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
