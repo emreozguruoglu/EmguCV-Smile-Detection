@@ -63,6 +63,16 @@ namespace EmguCVFace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _271_abstract_colors_background_800x600 {
+            get {
+                object obj = ResourceManager.GetObject("271-abstract-colors-background-800x600", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgorund {
             get {
                 object obj = ResourceManager.GetObject("backgorund", resourceCulture);

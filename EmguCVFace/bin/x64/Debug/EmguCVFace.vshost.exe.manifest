@@ -114,14 +114,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EmguCVFace.exe" size="1342976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EmguCVFace.exe" size="1389568">
       <assemblyIdentity name="EmguCVFace" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+8ul30SX5D53L6kBGWUVdi/Bp94kgELSKKq7n0Ut6AY=</dsig:DigestValue>
+        <dsig:DigestValue>diL3vKgKV2wo/Jg8TUj3q5KpeGR/SuRvkk001p+3m/4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
